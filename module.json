@@ -18,7 +18,28 @@
     }
   ],
   "packs": [
-@@ -38,9 +43,14 @@
+{
+      "name": "maps",
+      "label": "Ten Candles",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "journals",
+      "label": "Ten Candles",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "Ten Candles",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    } 
+    ],
   "esmodules": [
     "./scripts/init.js"
   ],
